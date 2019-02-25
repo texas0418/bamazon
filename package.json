@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "amazon type homework called bamazon",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/texas0418/bamazon.git"
+  },
+  "author": "Simon Shih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/texas0418/bamazon/issues"
+  },
+  "homepage": "https://github.com/texas0418/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
