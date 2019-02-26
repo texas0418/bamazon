@@ -26,7 +26,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Japanese Ryoba Saw 180mm", "Tools", "34.80", "8");
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Japanese Dozuki Hand Saw 6-in", "Tools", "24.85", "8");
+VALUES ("Japanese Dozuki Hand Saw", "Tools", "24.85", "8");
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Japanese Chisel Set", "Tools", "99.99", "5");
