@@ -24,8 +24,8 @@ function showItems() {
     connection.query("SELECT * FROM products", function (err, res) { // allows user to purchase items listed.
         if (err) throw err;
         var table = new Table({
-            head: ['ID', 'Product Name', 'Price'],
-            colWidths: [10, 30, 10]
+            head: ["ID", "Product Name", "Price"],
+            colWidths: [5, 30, 10]
         });
 
         for (var i = 0; i < res.length; i++) {
@@ -51,8 +51,8 @@ function showItems() {
                 function (err, data) {
                     if (err) throw err;
                     if (answer.quantity > data[0].stock_quantity) {
-                        console.log("We don't have that quantity in stock.");
-                        showItems();
+                        console.log("We don't have that quantity in stock. Please choose another quantity");
+                        
                     } else {
                         connection.query(
                             "UPDATE products SET ? WHERE ?",
