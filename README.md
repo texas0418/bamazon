@@ -31,16 +31,22 @@ Bamazon is a nodeJS program so there are dependencies required. Along with NodeJ
 
 ![Starting Database](images/bamazon-database.jpg)
 Database for the Bamazon Store
+
 ![Customer Side - Show Inventory](images/screenshot01.jpg)
 Shows the customer what is avaiable for purchase
+
 ![Customer Side Purchase](images/screenshot02.jpg)
 Allows customer to buy items
+
 ![Database Updates](images/screenshot03.jpg)
 Screenshot showing the updates to the database to reflect purchase
+
 ![Manager Menu Options](images/screenshot04.jpg)
 Menu of Manager options
+
 ![View Low Inventory](images/screenshot05.jpg)
 Shows the inventory items that have less than 5 items.
+
 ![Add Inventory](images/screenshot06.jpg)
 Shows database with updated new item.
 
