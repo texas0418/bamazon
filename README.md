@@ -29,7 +29,7 @@ Bamazon is a nodeJS program so there are dependencies required. Along with NodeJ
 
 ### Screen Captures
 
-![Starting Database](images/bamazon-database.jpg =250x)
+![Starting Database](images/bamazon-database.jpg)
 Database for the Bamazon Store
 ![Customer Side - Show Inventory](images/screenshot01.jpg)
 Shows the customer what is avaiable for purchase
