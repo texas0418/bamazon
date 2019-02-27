@@ -55,8 +55,8 @@ function showItems() {
             table.push([res[i].id, res[i].product_name, res[i].price, res[i].stock_quantity]);
         }
         console.log(table.toString());
-        showItems();
     });
+    exit();
 }
 
 // If a manager selects "View Low Inventory", shows all items that have under 5 left in stock
@@ -99,12 +99,14 @@ function updateInventory() {
     .then(function(answer) {
       connection.query(
         "UPDATE products SET ? WHERE ?",
-        {
+        [
+          {
             stock_quantity: answer.inventory,
         },
         {
             product_name: answer.item,
         },
+      ],
         function(err, res) {
             console.log("Your product was added successfully!");
             start();
